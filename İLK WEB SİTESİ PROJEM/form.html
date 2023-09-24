@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>hayavanlari kayit ekleme</title>
+</head>
+<body bgcolor="pink">
+<div style="border:1px solid #000; width:600px; min-height:100px;">
+<form action="" method="get" enctype="multipart/form-data" >
+
+            <legend align="center">
+                Hayvanlar Okulu:
+            </legend>
+   <table border="3" align="center" bgcolor="gray">
+<tr>
+<td><label for="tur">Hayvaninizin turu</label></td>
+<td colspan="1"><input type="text" name="tur" id="tur" required></td></tr>
+<tr>
+<td><label for="ad">Adi</label></td>
+<td colspan="1"><input type="text" name="ad" id="ad" required></td>
+</tr>
+<tr>
+<td>Soyadi</td>
+<td colspan="1"><input type="text" name="soyad" id="soyad" required></td>
+</tr>
+<tr>
+<td>yasi</td>
+<td><input type="number" name="yasi" id="yasi" min="0" max="20" placeholder="hayvaninizin yasini girin"></td>
+</tr>
+<tr>
+<td>Hayvaninizin resmini kayit dosyasina ekleyin lutfen</td>
+<td><input type="file" name="resim" id="resim"></td>
+</tr>
+<td>Hayvanin Cinsiyeti</td>
+<td>D<input type="radio" name="cinsiyet" id="cinsiyet" value="D" checked>
+E<input type="radio" name="cinsiyet" id="cinsiyet1" value="E"></td>
+</tr> 
+<tr> 
+<td>En sevdigi oyunlar</td>
+<td colspan="1">Top Yakalama<input type="checkbox" name="hobi1" id="hobi1">
+Baloncuk yakalama<input type="checkbox" name="hobi2" id="hobi2">
+ipli Top<input type="checkbox" name="hobi3" id="hobi3">
+</td>
+</tr>
+<tr>
+<td>Hayvaninizi hangi alana kaydetmek istersiniz</td>
+<td colspan="1">Postaci(Guvercin)<input type="radio" name="meslek" id="meslek" ><br>
+kickbokscu(kanguru)<input type="radio" name="meslek" id="meslek" ><br>
+Guvenlik gorevlisi(kopek)<input type="radio" name="meslek" id="meslek"><br>
+Marangoz(agackakan)<input type="radio" name="meslek" id="meslek"><br>
+Atlet(cita)<input type="radio" name="meslek" id="meslek"><br>
+insaat muhendisi(kunduz)<input type="radio" name="meslek" id="meslek"><br>
+</td>
+</tr>
+</table>
+Hayvaniniz hakkinda eklemek istediginiz birsey varmi ?:<br>
+<textarea name="gorus"" rows="15" cols="40" >
+</textarea>
+    <tr>
+<td colspan="2">
+<input type="submit" name="Okul Kaydını Tamamla" id="Okul Kaydını Tamamla value="Okul Kaydını Tamala">
+<a href="anasayfa.html">Siteye Geri Don</a>
+</td>
+</tr>
+</form>
+</div>
+</body>
+</html>
